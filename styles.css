@@ -99,9 +99,9 @@ button:hover {
 
 .offers {
     background-color: rgb(15, 15, 15);
-
     display: flex;
     flex-direction: column;
+    min-height: 170vh;
 }
 
 .align-offer {
@@ -148,6 +148,46 @@ button:hover {
     font-size: 23px;
     margin: 0;
     margin-top: 10px;
-    color:rgb(242, 244, 120)
+    color: gold;
 }
 
+.testimonial {
+    background-color: rgb(15, 15, 15);
+    margin-top: -16px;
+    min-height: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin: 0;
+    background-color: rgb(32, 31, 31);
+    border-radius: 15px;
+}
+
+.quote {
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.quote, .author {
+    font-size: 25px;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.author {
+    color: gold;
+    animation: subtleColorShift 3s infinite alternate;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes subtleColorShift {
+    0% { color: gold; }
+    50% { color: rgb(242, 217, 79); }
+    100% { color: rgb(235, 207, 52); }
+}
