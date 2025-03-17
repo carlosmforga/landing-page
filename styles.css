@@ -191,3 +191,48 @@ button:hover {
     50% { color: rgb(242, 217, 79); }
     100% { color: rgb(235, 207, 52); }
 }
+
+.explore {
+    background-color: rgb(15, 15, 15);
+    margin-top: -20px;
+    min-height: 30vh;
+}
+
+.mini-explore {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title-explore {
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: gold;
+    animation: subtleColorShift 3s infinite alternate;
+}
+
+.paragraph-explore {
+    margin-top: -20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-explore {
+    margin-top: -15px;
+    background-color: rgb(243, 215, 56);
+    border-radius: 8px;
+    border-color: black;
+    color: black;
+}
+
+.button-explore:hover {
+    background-color: rgb(235, 209, 66); /* Un poco más claro al pasar el ratón */
+    color: black;
+}
