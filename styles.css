@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    min-height: 100vh;
+
 }
 
 .header {
@@ -50,6 +50,7 @@ a {
 
 .main-title {
     font-size: 70px;
+    text-align: center;
     color: white;
     font-family: 'Playfair Display', sans-serif;
     margin: 0;
@@ -71,6 +72,8 @@ a {
     margin-left: 250px;
     font-size: 18px;
     margin-top: -30px;
+    min-width: 25rem;
+    max-width: 40rem;
 }
 
 button {
@@ -156,6 +159,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 5rem;
 }
 
 .box {
@@ -168,6 +172,7 @@ button:hover {
     margin-bottom: 0;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    text-align: center;
 }
 
 .quote, .author {
@@ -209,6 +214,8 @@ button:hover {
     margin-top: 30px;
     font-size: 40px;
     margin-bottom: 10px;
+    min-width: 20rem;
+    text-align: center;
     color: gold;
     animation: subtleColorShift 3s infinite alternate;
 }
@@ -219,6 +226,8 @@ button:hover {
     margin-right: 300px;
     text-align: center;
     font-size: 18px;
+    min-width: 20rem;
+    max-width: 30rem;
 }
 
 .button-explore {
@@ -239,15 +248,16 @@ button:hover {
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);;
+    align-items: center;
 }
 
 .end .title-explore {
     text-align: center;
-
     margin-top: 25px;
 }
 
 .end .paragraph-explore {
     color: white;
     margin-top: 0;
+    min-width: 20rem;
 }
