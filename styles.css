@@ -226,7 +226,7 @@ button:hover {
 
 .button-explore {
     margin-top: -15px;
-    background-color: rgb(243, 215, 56);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     border-color: black;
     color: black;
@@ -235,4 +235,21 @@ button:hover {
 .button-explore:hover {
     background-color: rgb(235, 209, 66); /* Un poco más claro al pasar el ratón */
     color: black;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);;
+}
+
+.end .title-explore {
+    text-align: center;
+
+    margin-top: 25px;
+}
+
+.end .paragraph-explore {
+    color: white;
+    margin-top: 0;
 }
